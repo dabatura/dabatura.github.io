@@ -552,6 +552,8 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  height: 200px;
+  width: 300px;
 }
 
 .portfolio #portfolio-flters {
@@ -595,7 +597,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.867);
   position: absolute;
   left: 0;
   right: 0;
@@ -610,25 +612,29 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -260px;
+  height: 200px;
   z-index: 3;
   position: absolute;
+  font-weight: 600;
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: #002DB3ca;
   font-size: 18px;
   text-align: center;
-  background: rgba(235, 139, 79, 0.75);
-  transition: 0.3s;
+  border-radius: 10px;
+  background: rgba(235, 139, 79, 0.55);
+  transition: 0.1s;
+  padding-top: 90px;
   width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: rgba(235, 139, 79, 0.284);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
