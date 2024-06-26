@@ -45,7 +45,7 @@ h6 {
   opacity: 0;
   right: 15px;
   bottom: 15px;
-  z-index: 996;
+  z-index: 101;
   background: #002DB3ca;
   width: 40px;
   height: 40px;
@@ -79,7 +79,7 @@ h6 {
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
-  z-index: 9997;
+  z-index: 95;
   transition: all 0.5s;
   padding: 0 15px;
   background: #F07002;
@@ -202,7 +202,7 @@ h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-  z-index: 9998;
+  z-index: 100;
   border: 0;
   font-size: 24px;
   transition: all 0.4s;
@@ -622,11 +622,11 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  font-size: 28px;
+  font-size: 18px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: rgba(235, 139, 79, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -675,7 +675,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #002DB3ca;
+  background-color: #ed3c0d;
 }
 
 .portfolio-details .portfolio-info {
@@ -1115,7 +1115,7 @@ section {
   left: 0;
   bottom: 0;
   width: 300px;
-  z-index: 9999;
+  z-index: 100;
   background: #F07002;
 }
 
