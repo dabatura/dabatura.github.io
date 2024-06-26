@@ -641,8 +641,11 @@ progress {
 
 .img-fluid {
     max-width: 100%;
-    height: 200;
+}
+
+.fill {
     object-fit: fill;
+    height: 200;
 }
 
 .img-thumbnail {
