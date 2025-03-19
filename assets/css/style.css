@@ -1136,10 +1136,132 @@ section {
   color: #eaebf0;
 }
 
+#footer .btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#footer .btn-outline-light:hover {
+  background-color: #fff;
+  color: #F07002;
+}
+
 @media (max-width: 1199px) {
   #footer {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Projects
+--------------------------------------------------------------*/
+.projects .card {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.projects .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.projects .card-img-top {
+  height: 240px;
+  object-fit: cover;
+}
+
+.projects .card-body {
+  padding: 20px;
+}
+
+.projects .card-title {
+  color: #173b6c;
+  margin-bottom: 15px;
+}
+
+.projects .btn-primary {
+  background-color: #149ddd;
+  border-color: #149ddd;
+  padding: 8px 16px;
+  transition: all 0.3s;
+}
+
+.projects .btn-primary:hover {
+  background-color: #0e76a8;
+  border-color: #0e76a8;
+}
+
+/* Case Study Styles */
+.case-study-details img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.case-study-details-slider {
+  margin-bottom: 30px;
+}
+
+.case-study-details-slider .swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+
+.case-study-details-slider .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #149ddd;
+}
+
+.case-study-details-slider .swiper-pagination-bullet-active {
+  background-color: #149ddd;
+}
+
+.case-study-info {
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.case-study-info h3 {
+  font-size: 22px;
+  color: #173b6c;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.case-study-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.case-study-info ul li {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.case-study-info ul li strong {
+  color: #173b6c;
+  margin-right: 10px;
+  min-width: 100px;
+}
+
+.case-study-title {
+  color: #173b6c;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Mobile Responsiveness for Projects */
+@media (max-width: 768px) {
+  .projects .card-img-top {
+    height: 200px;
   }
 }
